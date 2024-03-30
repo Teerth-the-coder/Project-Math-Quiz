@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <p id="playerOneName"></p>
+    <br>
+    <p id="playerTwoName"></p>
+    <div class="container">
+        <center>
+            <h1 class="title">The Math Quiz Game!</h1>
+            <p id="questionTurn"></p>
+            <br>
+            <p id="answerTurn"></p>
+            <br>
+            <div id="output">
+                <p id="question"></p>
+                Answer: <input type="text" placeholder="Enter Answer Here" id="answerBox">
+                <br>
+                <br>
+                <button class="checkbtn" onclick="check()">Check</button>
+            </div>
+            <h2>Number 1</h2>
+            <input type="text" id="number1" placeholder="Number 1">
+            <h2>Number 2</h2>
+            <input type="text" id="number2" placeholder="Number 2">
+            <br>
+            <br>
+            <button class="btn btn-primary" onclick="send()">Send</button>
+        </center>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
